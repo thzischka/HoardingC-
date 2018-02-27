@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="hoardingC__"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hoardingC__">
+				<Option output="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/hoardingC__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 hoardingC__"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="hoardingC__/fast">
+				<Option output="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/hoardingC__" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 hoardingC__/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/tzischka17/Desktop/hoardingC++/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Board.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Board.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/CampusRules.txt">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/DiceRoller.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/DiceRoller.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/GameState.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/GameState.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/GameStateLogic.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/GameStateLogic.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/PayAndFreeParking.csv">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Player.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Player.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/RandomNums10000.txt">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Rules.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Rules.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/SimpleMonopolyBoard.csv">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Space.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/Space.h">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/main.cpp">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/makefile">
+			<Option target="hoardingC__"/>
+		</Unit>
+		<Unit filename="/Users/tzischka17/Desktop/hoardingC++/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,8 @@
+Number of Spaces,4,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Type,Set Id,Intraset Id,Name,Property Cost,House Cost,Hotel Cost,Rent,Rent with House,Rent With Hotel
+Go,0,Go,,,,,,,
+Pay,StudentFees,1000,,,,,,,
+FreeParking,Grant,,,,,,,,
+FreeParking,Parents,,,,,,,,
