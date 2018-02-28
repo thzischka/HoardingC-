@@ -88,6 +88,22 @@ namespace Monopoly {
             return diceRoll;
         }
 
+        void setInJail(bool jail) {
+            inJail = jail;
+        }
+
+        bool getInJail() {
+            return inJail;
+        }
+
+        void setTurnsInJail(int turns) {
+            turnsInJail = turns;
+        }
+
+        int getTurnsInJail() {
+            return turnsInJail;
+        }
+
         bool turnOver;
 
     private:
@@ -102,6 +118,9 @@ namespace Monopoly {
         /***** SECONDARY VARIABLES *****/
         bool partOfAuction;
         int diceRoll;
+
+        bool inJail;
+        int turnsInJail;
     };
 }
 

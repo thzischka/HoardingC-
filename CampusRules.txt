@@ -4,7 +4,7 @@ Number of Players Left To End Game: 1
 Property Set Multiplier: 5
 Number of Houses Before Hotels: 4
 Must Build Houses Evenly: Yes
-Put Money In Free Parking: No
+Put Money In Free Parking: Yes
 Auction Properties: No
 Salary Multiplier For Landing On Go: 1
 Max Doubles ReRolls: 0

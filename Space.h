@@ -18,7 +18,19 @@ namespace Monopoly {
 
     class Board;
 
-    class boardSpace {
+    class SpaceFunc {
+    public:
+        void changeCashAmount(Board &board, int currentPlayer, int changeInVal, int& currentCashAmount); // Jail / Properties / Pay / FreeParking
+
+        void purchaseProperty(Board &board, int currentPlayer, int currentBoardPosition, int amountToPay); // Property
+        void auctionProperty(Board &board, int currentPlayer, int currentBoardPosition); // Property
+
+        void sellUpgradedProperties(Board &board, int currentPlayer, int& currentCashAmount, int rent, bool &hasUpgrades); // Jail / Pay / Property
+
+        double powerFunc(double base, double expo = 0); // Property
+    };
+
+    class boardSpace : public SpaceFunc {
     public:
         boardSpace();
 

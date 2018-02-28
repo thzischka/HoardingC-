@@ -56,7 +56,6 @@ void Board::readInBoard(char *argv, Board& board) {
             continue;
 
         } else if (tempType == "Pay") {
-            cout << "READ";
             board.boardSpaces.push_back(std::make_unique<Pay>(board));
             board.boardSpaces.at(i)->readInPay(readIn);
             board.boardSpaces.at(i)->setPositionOnBoard(i);
@@ -64,7 +63,6 @@ void Board::readInBoard(char *argv, Board& board) {
             continue;
 
         } else if (tempType == "FreeParking") {
-            cout << "READ";
             board.boardSpaces.push_back(std::make_unique<FreeParking>(board));
             board.boardSpaces.at(i)->readInFreeParking(readIn);
             board.boardSpaces.at(i)->setPositionOnBoard(i);
@@ -72,6 +70,7 @@ void Board::readInBoard(char *argv, Board& board) {
             continue;
 
         } else if (tempType == "GoToJail") {
+
 
         } else if (tempType == "Jail") {
 
@@ -83,7 +82,6 @@ void Board::readInBoard(char *argv, Board& board) {
 //**********************************************************************************************************************************
 
 void Board::displayBoard(Board& board) {
-    int count = 0;
 
     cout << "Space Number| Space Name\t| Owner\t\t| Upgrades\t| Players" << endl;
 
